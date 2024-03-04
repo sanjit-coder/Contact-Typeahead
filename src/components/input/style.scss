@@ -1,0 +1,24 @@
+.searchParentContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  position: relative;
+
+  .searchContainer {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+}
+
+.inputContainer {
+  width: 400px;
+}
+
+/* Media query for screens with a maximum width of 767 pixels (commonly used for mobile devices) */
+@media screen and (max-width: 767px) {
+  /* Styles for mobile devices go here */
+  .inputContainer {
+    width: 100%;
+  }
+}
